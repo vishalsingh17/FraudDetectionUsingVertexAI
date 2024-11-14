@@ -2,14 +2,14 @@
  
 ## An AI-based Fraud Detection System
 <p align="center">
-  <img src="Media/Analyze Transactions from a CSV File.gif" alt="Image 1" width="400"/>
-  <img src="Media/Analyze Transactions from BigQuery.gif" alt="Image 2" width="400"/> 
+  <img src="media/Analyze Transactions from a CSV File.gif" alt="Image 1" width="400"/>
+  <img src="media/Analyze Transactions from BigQuery.gif" alt="Image 2" width="400"/> 
 </p>
 
 
 ## Overview
 The AI-based Fraud Detection System leverages Google Cloud's Vertex AI to deploy the most effective machine learning models for detecting fraudulent transactions in credit card data. This project encapsulates a workflow of training, evaluating, and deploying machine learning models in a cohesive pipeline, ensuring the deployment of the most accurate model available for fraud detection.
-![Completed Pipeline.gif](Media%2FCompleted%20Pipeline.gif)
+![Completed Pipeline.gif](media%2FCompleted%20Pipeline.gif)
 ## Pipeline: Deploying the Best Performing Model to an Endpoint
 
 ## Purpose
@@ -46,7 +46,7 @@ Implementing this pipeline via Vertex AI offers significant advantages:
 #### Pipeline Implementation
 This approach has been materialized into a Vertex AI Pipeline, enabling a serverless execution of the entire workflow. Each step of the outlined workflow is encapsulated into components that interact through defined inputs and outputs.
 
-![Pipeline Dashboard](Media/pipeline.png)
+![Pipeline Dashboard](media/pipeline.png)
 
 ### Pipelines
 Pipelines represent workflows with multiple interdependent steps. Utilizing Vertex AI Pipelines, we can automate the model training, evaluation, and deployment process efficiently, treating each workflow step as a component within the pipeline.
